@@ -28,10 +28,10 @@ func queryDB(db sql.DB, a string) {
 }
 
 func main() {
-	// a := 0.1
-	// b := 0.2
-	// c := a + b
-	// fmt.Println(c)
+	a := 0.1
+	b := 0.2
+	c := a + b
+	fmt.Println(c)
 	// return
 	r := gin.Default()
 	r.GET("/ping", func(c *gin.Context) {
