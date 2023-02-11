@@ -1,10 +1,6 @@
 package lru
 
-import (
-	"testing"
-)
-
-func TestPut(t *testing.T) {
+/* func TestPut(t *testing.T) {
 	l := new(LRU)
 	l.Cap = 3
 	l.MapData = make(map[int]*Node)
@@ -15,4 +11,4 @@ func TestPut(t *testing.T) {
 	for _, v := range l.MapData {
 		t.Log(v.Value)
 	}
-}
+} */

@@ -1,5 +1,6 @@
 package lru
 
+/*
 type Node struct {
 	Value    int
 	LastNode *Node
@@ -38,4 +39,4 @@ func (l *LRU) Put(k, v int) {
 	l.MapData[k] = node
 	return
 
-}
+} */
